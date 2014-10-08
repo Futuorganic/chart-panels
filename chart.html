@@ -9,13 +9,14 @@
 		<link rel="stylesheet" type="text/css" href="chart.css"/>
 		<script src="Chart.js"></script>
 		<script src="Chart.Line.js"></script>
+		<script src="Chart.Bar.js"></script>
 	</head>
 	<body>
 		<div class="container">
 			<div class="panel panel-info">
 				<div class="panel-heading">
 					
-						<div class="col-xs-2 icon">
+						<div class="col-xs-2 icon" id="dollar">
 						</div>
 						<div class="col-xs-10">
 					        <h3 class="panel-title">Revenue by Solution</h3>
@@ -33,6 +34,7 @@
 				    <div class="col-md-3">
 				    	<div class="result pull-right">
 				    		<h1>32,556</h1>
+				    		<span>&#36;</span>
 				    		<p class="pull-right">Revenue Stream</p>
 				    	</div>
 				    	<div class="my-btn pull-right">
@@ -45,15 +47,15 @@
 		    	<div class="panel panel-info">
 		    		<div class="panel-heading">
 		    			
-		    				<div class="col-xs-2 icon">
+		    				<div class="col-xs-2 icon" id="arrow">
 		    				</div>
 		    				<div class="col-xs-10">
-		    			        <h3 class="panel-title">Revenue by Solution</h3>
+		    			        <h3 class="panel-title">Installations</h3>
 		    		        </div>
 		    		</div>
 		    		<div class="panel-body">
 		    			<div class="col-md-9">
-		    				<p class="pull-right">Revenue per week</p>
+		    				<p class="pull-right">Installations per day</p>
 		    		        <div style="width:100%">
 		    			        <div>
 		    				        <canvas id="bar-chart-canvas" height="200" width="600"></canvas>
@@ -62,11 +64,11 @@
 		    		    </div>
 		    		    <div class="col-md-3">
 		    		    	<div class="result pull-right">
-		    		    		<h1>32,556</h1>
-		    		    		<p class="pull-right">Revenue Stream</p>
+		    		    		<h1>136</h1>
+		    		    		<p class="pull-right">Installations</p>
 		    		    	</div>
 		    		    	<div class="my-btn pull-right">
-		    		    		<button type="button" class="btn btn-primary pull-right">Revenue Analysis</button>
+		    		    		<button type="button" class="btn btn-primary pull-right">View Installations</button>
 		    		    	</div>
 		    		    </div>
 		    	    </div>

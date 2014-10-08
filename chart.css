@@ -1,6 +1,13 @@
 body {
 	margin-top: 20px;
 }
+span {
+	display: inline-block;
+	position: relative;
+	font-size: 2em;
+	top: -55px;
+	left: -20px;
+}
 .icon {
 	position: relative;
     left: 10px;
@@ -12,7 +19,6 @@ body {
 	border: 3px solid white;
 	border-radius: 10px;
 	background-color: #e9f6fd;
-	background-image: url("money_4.svg");
 	background-size: 100%;
 }
 .panel-heading{
@@ -35,4 +41,10 @@ body {
 	clear: both;
 	top: 150px;
 }
+#dollar {
+	background-image: url("money_4.svg");
+}
+#arrow {
+	background-image: url("arrow-black-down.png");
 
+}

@@ -5,11 +5,11 @@
 			{
 				label: "My First dataset",
 				fillColor : "rgb(231, 246, 255)",
-				strokeColor : "rgb(255,0,0)",
-				pointColor : "rgb(255,0,0)",
+				strokeColor : "rgb(236, 138, 100)",
+				pointColor : "rgb(236, 138, 100)",
 				pointStrokeColor : "#fff",
 				pointHighlightFill : "#fff",
-				pointHighlightStroke : "rgb(255,0,0)",
+				pointHighlightStroke : "rgb(236, 138, 100)",
 				data : [600, 740, 825, 900, 260]
 			},
 			{
