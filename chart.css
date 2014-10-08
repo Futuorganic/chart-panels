@@ -1,0 +1,38 @@
+body {
+	margin-top: 20px;
+}
+.icon {
+	position: relative;
+    left: 10px;
+    top: -20px;
+	height: 50px;
+	width: 50px;
+	padding: 10px;
+	display: inline-block;
+	border: 3px solid white;
+	border-radius: 10px;
+	background-color: #e9f6fd;
+	background-image: url("money_4.svg");
+	background-size: 100%;
+}
+.panel-heading{
+	min-height: 45px;
+}
+.panel-title {
+	position: relative;
+	display: inline-block;
+	left: 10px;
+}
+.result {
+	display: block;
+}
+.result h1 {
+	font-size: 3em;
+}
+.my-btn {
+	position: relative;
+	display: block;
+	clear: both;
+	top: 150px;
+}
+
