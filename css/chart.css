@@ -42,9 +42,9 @@ span {
 	top: 150px;
 }
 #dollar {
-	background-image: url("money_4.svg");
+	background-image: url("../img/money_4.svg");
 }
 #arrow {
-	background-image: url("arrow-black-down.png");
+	background-image: url("../img/arrow-black-down.png");
 
 }
