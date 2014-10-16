@@ -41,12 +41,12 @@ span {
 	clear: both;
 	top: 150px;
 }
-.map {
+.legend {
 	list-style-type: none;
 	margin-top: 20px;
 	text-align: center;
 }
-.map li {
+.legend li {
     display: inline-block;
 	margin-left: 20px;
 }
