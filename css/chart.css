@@ -57,13 +57,13 @@ span {
 	border-radius: 50%;
 	margin-right: 5px;
 }
-#red {
+.red {
 	background-color: rgb(236, 138, 100);
 }
-#green {
+.green {
     background-color: rgb(37, 158, 0);
 }
-#blue {
+.blue {
     background-color: rgb(21, 160, 200);
 }
 #dollar {
