@@ -41,6 +41,15 @@ span {
 	clear: both;
 	top: 150px;
 }
+.map {
+	list-style-type: none;
+	margin-top: 20px;
+	text-align: center;
+}
+.map li {
+    display: inline-block;
+	margin-left: 20px;
+}
 #dollar {
 	background-image: url("../img/money_4.svg");
 }
